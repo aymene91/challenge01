@@ -1,0 +1,100 @@
+.Sedans{
+    background-color:hsl(31, 77%, 52%);
+    width: 290px;
+    height: 420px;
+    
+    color: white;
+    padding-left: 20px ;
+    border-radius: 15px;
+}
+.SED{
+    position: relative;
+   
+   
+}
+ 
+h2{
+    position: relative;
+    top: 58px;
+    left: 30px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Lexend Deca', sans-serif;
+}
+img{
+    position: relative;
+    top: 38px;
+    left: 30px;
+}
+
+p{
+    position: relative;
+    top: 78px;
+    left: 30px;
+    font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif;
+color:  hsla(0, 0%, 100%, 0.75);
+}
+.SUVs{
+    position: relative;
+    background-color: hsl(184, 100%, 22%);
+    width:  290px;
+    height: 420px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    padding-left: 20px ;
+    border-radius: 0px;
+    top:-420px;
+    left: 290px;
+    z-index: 2;   }
+span{
+    font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif;
+}
+.Luxury{
+    position: relative;
+    background-color:hsl(179, 100%, 13%);
+    width:  290px;
+    height: 420px;
+    color: white;
+    padding-left: 20px ;
+    border-radius: 0px;
+    top:-840px;
+    left: 590px;
+    z-index: 1;
+    border-radius: 15px;
+}
+.for{
+    width: 1440px;
+    margin-top: 120px;
+    margin-left: 130px;
+}
+button{
+    position: relative;
+    font-family: 'Big Shoulders Display', cursive;
+    left: 30px;
+    padding: 13px;
+    border-radius: 120px;
+    bottom: -120px;
+    width: 120px;
+    font-size: 16px;
+    height: 50px;
+    text-align: center;
+    border: none;
+}
+
+.three{
+    color: hsl(179, 100%, 13%);
+}
+.one{
+  color:   hsl(31, 77%, 52%);
+}
+.two{
+    color:  hsl(184, 100%, 22%);
+}
+
+.three:hover,.one:hover,.two:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background-color: transparent;
+    border: white solid 2px;
+}
